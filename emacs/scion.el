@@ -2338,6 +2338,7 @@ installed packages (However, not of the current project.)"
  (defvar scion-flycheck-on-save-state nil
    "Non-nil iff type checking should be performed when the file is saved."))
 
+;;;###autoload
 (defun scion-flycheck-on-save (&optional arg)
   "Toggle type checking the current file when it is saved.
 
